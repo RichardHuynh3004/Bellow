@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B2F36"/>
+      <stop offset="1" stop-color="#16181C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#g)"/>
+
+  <!-- the bellows: body, pleats, nozzle. Feeds the fire; is not the fire. -->
+  <g fill="none" stroke="#F4F2EE" stroke-width="26"
+     stroke-linejoin="round" stroke-linecap="round">
+    <path d="M118 150 L330 236 L330 276 L118 362 Z"/>
+    <path d="M182 186 L182 326"/>
+    <path d="M250 214 L250 298"/>
+    <path d="M330 256 L404 256"/>
+  </g>
+
+  <!-- the spark it drives -->
+  <circle cx="404" cy="256" r="26" fill="#C9553F"/>
+</svg>
