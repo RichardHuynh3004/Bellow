@@ -1,6 +1,6 @@
 # Marketplace listing — copy/paste source
 
-App: **Blocked Aging for Jira** · Vendor: **Bellows**
+App: **Blocked Aging for Jira** · Vendor: **Bellowsware**
 App id: `053513c8-d15a-4b48-9cfd-c422727e0bcc`
 
 ---
@@ -43,7 +43,7 @@ Flip the table around to see who is holding things up. If one unsigned
 contract is blocking four items, that is one conversation, not four.
 
 PRIVACY
-Read-only. Bellows requests a single scope, read:jira-work, and writes
+Read-only. Bellowsware requests a single scope, read:jira-work, and writes
 nothing back to Jira. All processing happens inside Atlassian's
 infrastructure — your data never reaches our servers, because we do not
 run any.
@@ -119,11 +119,11 @@ We do not offer phone or live chat support.
 
 **Name**
 ```
-Bellows
+Bellowsware
 ```
 **Description**
 ```
-Bellows builds small, focused apps for Jira and Confluence.
+Bellowsware builds small, focused apps for Jira and Confluence.
 
 Each app does one job well and runs entirely on Atlassian infrastructure —
 no external servers, no data leaving your instance.
