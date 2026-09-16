@@ -1,6 +1,6 @@
 # Privacy Policy — Blocked Aging for Jira
 
-**Vendor:** Bellows
+**Vendor:** Bellowsware
 **Contact:** support@bellowsware.com
 **Last updated:** 16 September 2026
 
@@ -13,7 +13,7 @@ has no servers.
 
 Blocked Aging is a Forge app and qualifies for Atlassian's **Runs on Atlassian**
 programme. All of its code executes inside Atlassian's own cloud infrastructure,
-in your instance's region. Bellows operates no servers, no database, and no
+in your instance's region. Bellowsware operates no servers, no database, and no
 analytics endpoint that your data could reach.
 
 ## What the app reads
