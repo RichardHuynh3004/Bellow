@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#F4F2EE"/>
+
+  <!-- Three waiting items. Bar length is time spent blocked; the longest
+       has crossed the line and turns red. That is the whole product. -->
+  <g stroke-linecap="round">
+    <rect x="96" y="150" width="150" height="34" rx="17" fill="#8A9099"/>
+    <rect x="96" y="239" width="228" height="34" rx="17" fill="#8A9099"/>
+    <rect x="96" y="328" width="320" height="34" rx="17" fill="#C9553F"/>
+  </g>
+
+  <!-- the threshold everything is measured against -->
+  <path d="M356 116 L356 396" stroke="#16181C" stroke-width="14"
+        stroke-linecap="round" stroke-dasharray="26 26"/>
+</svg>
