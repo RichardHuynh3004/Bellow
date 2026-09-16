@@ -10,44 +10,51 @@ App id: `053513c8-d15a-4b48-9cfd-c422727e0bcc`
 Blocked Aging
 ```
 
-## Summary (short line under the name)
+## App key
 ```
-See which work items are stuck, and how long they have been stuck.
+053513c8-d15a-4b48-9cfd-c422727e0bcc
+```
+Full ARI: `ari:cloud:ecosystem::app/053513c8-d15a-4b48-9cfd-c422727e0bcc`
+
+## Tagline  (92/130)
+```
+Jira tells you what is blocked. Blocked Aging tells you what has been blocked for six weeks.
 ```
 
-## Description
+## Summary  (248/250)
 ```
-Jira tells you what is blocked. It does not tell you what has been blocked
-for six weeks.
+See every work item that is flagged or waiting on an unresolved blocker, ordered by how long it has been stuck. Group by blocker to find the one thing holding up four others. Read-only, and runs entirely inside Atlassian — nothing leaves your site.
+```
 
-Blocked Aging puts every stuck work item on one dashboard gadget, ordered by
-how long it has actually been waiting — so the oldest problem is always at
-the top instead of buried on a board.
+## More details  (997/1000)
+```
+A flag on a Jira card looks the same whether it went up yesterday or last quarter. Blocked Aging shows the difference.
+
+Every stuck work item lands on one dashboard gadget, ordered by how long it has really been waiting.
 
 WHAT COUNTS AS BLOCKED
-· The item is flagged
-· The item is linked to a blocker that is not Done
+The item is flagged, or linked to a blocker that is not yet Done. A completed blocker stops counting, so stale links no longer inflate the list.
 
-A blocker that has already been completed no longer counts, so stale links
-stop inflating your list.
-
-HOW LONG IT HAS BEEN STUCK
-The age is measured from the start of the current unbroken blocked period.
-An item flagged on Monday and additionally link-blocked on Friday has been
-stuck since Monday. One that was unblocked in between starts again from
-Friday. Where the history no longer reaches back far enough, we say
-"unknown" rather than invent a number.
+HOW THE AGE IS MEASURED
+From the start of the current unbroken blocked period, not the most recent event. Flagged Monday and link-blocked Friday means stuck since Monday. Unblocked in between restarts the clock. Where history cannot prove when the stretch began, it says "unknown" instead of inventing a number.
 
 GROUP BY BLOCKER
-Flip the table around to see who is holding things up. If one unsigned
-contract is blocking four items, that is one conversation, not four.
+One button flips the table: instead of what is stuck, see who is holding things up. One contract blocking four items is one conversation, not four.
 
 PRIVACY
-Read-only. Bellowsware requests a single scope, read:jira-work, and writes
-nothing back to Jira. All processing happens inside Atlassian's
-infrastructure — your data never reaches our servers, because we do not
-run any.
+Read-only, one scope, nothing written back. It runs on Atlassian infrastructure — there is nowhere for your data to go.
 ```
+
+## Categories
+```
+Dashboard gadgets
+Reports
+Project management
+```
+Do NOT pick "Time tracking" — people browsing it want worklogs and timesheets,
+so it draws installs that uninstall and leave low ratings. With zero reviews,
+one bad rating costs more than the extra views are worth. Same reasoning rules
+out "IT & helpdesk", which is JSM territory.
 
 ---
 
